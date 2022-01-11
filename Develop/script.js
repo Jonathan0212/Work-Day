@@ -11,8 +11,8 @@ function background () {
             $(this).addClass("past");
         } else if (divTimeId === currentHour) {
             $(this).removeClass("past");
-            $(this).removeClass("present");
-            $(this).addClass("future");
+            $(this).removeClass("future");
+            $(this).addClass("present");
         } else {
             $(this).removeClass("past");
             $(this).removeClass("present");
